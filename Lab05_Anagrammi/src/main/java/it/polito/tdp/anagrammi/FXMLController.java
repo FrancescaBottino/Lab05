@@ -62,7 +62,8 @@ public class FXMLController {
     			risE+=s+"\n";
     	}
     		
-    	
+    	txtAnagrammiCorretti.setDisable(false);
+    	txtAnagrammiErrati.setDisable(false);
     	txtAnagrammiCorretti.setText(risC);
     	txtAnagrammiErrati.setText(risE);
     	
@@ -76,6 +77,8 @@ public class FXMLController {
     	txtParolaInserita.clear();
     	btnCalcolaAnagrammi.setDisable(false);
     	btnReset.setDisable(true);
+    	txtAnagrammiCorretti.setDisable(true);
+    	txtAnagrammiErrati.setDisable(true);
 
     }
 
